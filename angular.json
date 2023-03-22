@@ -22,12 +22,34 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/favicon.png",
+              "src/robots.txt",
+              {
+                "glob": "**/*",
+                "input": "node_modules/bootstrap/dist",
+                "output": "./assets/bootstrap"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/jquery/dist",
+                "output": "./assets/jquery"
+              }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/animate.css/animate.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/flex-slider.css",
+              "src/assets/css/font-awesome.css",
+              "src/assets/css/lightbox.css",
+              "src/assets/css/templatemo-klassy-cafe.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "src/assets/js/lightbox.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +116,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
