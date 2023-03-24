@@ -26,6 +26,11 @@
               "src/favicon.png",
               "src/robots.txt",
               {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              },
+              {
                 "glob": "**/*",
                 "input": "node_modules/bootstrap/dist",
                 "output": "./assets/bootstrap"
