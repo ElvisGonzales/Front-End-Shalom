@@ -156,5 +156,15 @@ export class CargarscripsService {
       document.getElementsByTagName('head')[0].appendChild(node);
     }
   }
+  scripdashboard(archivos: string[]) {
+    for (let archivo of archivos) {
+      let node = document.createElement('script');
+      node.src = "../../../assets/js/script.js";//Change to your js file
+      node.type = 'text/javascript';
+      node.async = true;
+      node.charset = 'utf-8';
+      document.getElementsByTagName('head')[0].appendChild(node);
+    }
+  }
 
 }

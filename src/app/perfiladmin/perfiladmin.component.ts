@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CargarscripsService } from '../Service/cargarscrips/cargarscrips.service';
 
 @Component({
   selector: 'app-perfiladmin',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class PerfiladminComponent {
 
+  constructor(private _CargarScripts: CargarscripsService) { 
+    _CargarScripts.scripdashboard(["scripdashboard"]);
+  }
 }
