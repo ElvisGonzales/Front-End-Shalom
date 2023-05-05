@@ -9,6 +9,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FormsModule } from '@angular/forms';
 import{HttpClientModule}from '@angular/common/http';
 import { PerfiladminComponent } from './perfiladmin/perfiladmin.component';
+import { AdmininventarioComponent } from './admininventario/admininventario.component';
+import { AdmineventosComponent } from './admineventos/admineventos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PerfiladminComponent } from './perfiladmin/perfiladmin.component';
     HomeComponent,
     AboutComponent,
     PortfolioComponent,
-    PerfiladminComponent
+    PerfiladminComponent,
+    AdmininventarioComponent,
+    AdmineventosComponent
   ],
   imports: [
     BrowserModule,
