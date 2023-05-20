@@ -841,6 +841,11 @@ banner
   padding: 0;
 }
 
+.slider .items .imgfill {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ==== Slider Style === */
 .Modern-Slider .item .img-fill {
   /* height:100%;
