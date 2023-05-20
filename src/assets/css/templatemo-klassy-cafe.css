@@ -752,7 +752,7 @@ banner
   background:#000; */
   width: 100vw;
     max-width: 875px;
-    min-width: 10px;
+    min-width: 100px;
     margin: auto;
 }
 
