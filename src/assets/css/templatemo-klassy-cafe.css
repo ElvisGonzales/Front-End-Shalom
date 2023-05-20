@@ -751,7 +751,7 @@ banner
   max-height: 700px;
   background:#000; */
   width: 100vw;
-    max-width: 100px;
+    max-width: 875px;
     min-width: 320px;
     margin: auto;
 }
