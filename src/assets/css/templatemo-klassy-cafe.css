@@ -633,10 +633,7 @@ header
   }
 
   .container2 {
-    width: 75vw;
-    max-width: 100px;
-    min-width: 320px;
-    margin: auto;
+    max-width: 100%;
   }
 
   .header-area .logo {
@@ -856,6 +853,19 @@ banner
   min-width: 100px;
   margin: auto; */
   width: 100%;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #afafaf;
+  padding: 5px;
+  transition: all .5s;
+  border-radius: 3px;
+}
+
+/* ==== Slider Style === */
+.Modern-Sliders .items .img-fills {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
   overflow: hidden;
   position: relative;
   border: 1px solid #afafaf;
