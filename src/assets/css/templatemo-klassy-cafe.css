@@ -632,10 +632,6 @@ header
     padding: 0px;
   }
 
-  .container2 {
-    max-width: 100%;
-  }
-
   .header-area .logo {
     margin-left: 30px;
   }
@@ -871,22 +867,9 @@ banner
   border-radius: 3px;
 }
 
-/* ==== Slider Style === */
-.Modern-Sliders .items .img-fills {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid #afafaf;
-  padding: 5px;
-  transition: all .5s;
-  border-radius: 3px;
-}
-
 .Modern-Slider .item .info>div {
   display: inline-block !important;
-  vertical-align: middle;
+  vertical-align: middle; 
 }
 
 .Modern-Slider .NextArrow {
